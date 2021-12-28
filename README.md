@@ -10,7 +10,7 @@ You can guess them...
  - A host with VMware ESXi. VMs don't run in trees.
 
 ## Run
-Clone this. Copy "variables.tf.sample" to "variables.tf", fill the values, and enjoy.
+Clone this. Copy `variables.tf.sample` to `variables.tf`, fill the values, and enjoy.
 If you wish, you can edit "useradata.tpl" to run some startup commands. If you don't, then don't.
 
 After that, the usual:
