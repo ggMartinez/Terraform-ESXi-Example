@@ -1,4 +1,4 @@
-output "ip" {
-  value = [esxi_guest.Default.ip_address]
+output "IP" {
+  value = esxi_guest.vmguest.ip_address
 }
 

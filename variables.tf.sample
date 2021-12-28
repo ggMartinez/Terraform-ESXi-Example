@@ -1,37 +1,37 @@
 #  Change these defaults to fit your needs!
 
-variable "esxi_hostname" {
+variable "esxiHostname" {
   default = ""
 }
 
-variable "esxi_hostport" {
+variable "esxiSSHPort" {
   default = ""
 }
 
-variable "esxi_hostssl" {
+variable "esxiSSLPort" {
   default = ""
 }
 
-variable "esxi_username" {
+variable "esxiUsername" {
   default = ""
 }
 
-variable "esxi_password" {
+variable "esxiPassword" {
   # Unspecified will prompt
 }
 
-variable "virtual_network" {
+variable "virtualNetwork" {
   default = ""
 }
 
-variable "disk_store" {
+variable "dataStore" {
   default = ""
 }
 
-variable "centos_vm_template" {
+variable "templateVM" {
   default = ""
 }
 
-variable "vm_hostname" {
+variable "guestHostname" {
   default = ""
 }
